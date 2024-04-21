@@ -1,0 +1,94 @@
+*{
+   margin:0;
+   padding:0;
+}
+
+body {
+         
+  background:rgba(0,0,0.7) url(555.webp)
+  center center fixed;
+  background-size: full cover;
+  background-blend-mode:darken
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    color:antiquewhite
+}
+
+.container{
+        display:flex;
+        align-items: center;
+        justify-content: space-betweem;
+}
+  
+.container h1{
+    color: #f87f06ff;;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.navber ul li{
+   display: inline-block;
+   padding: 18px;
+   text-transform:uppercase;
+   background-color: rgb(141, 108, 108);
+}
+
+.navbar ul li a{
+     text-decoration: none;
+     color: #fff;
+     padding: 4px;
+     transition: 3.5s;
+}
+.navbar ul li a: hover{
+     box-shadow: 0 3px 50px orangered inset,
+      0 3px 50px orangered,
+     0 3px 50px orangered inset, 
+     0 3px 50px orangered inset;
+}
+
+.navbar .reservation{
+    padding: 8px;
+    background-color: orangered;
+}
+.content{
+    position: absolute;
+    color: #fff;
+    top: 40%
+    ;
+}
+
+.content h3{
+   font family: sans-serif;
+   font-size: 20px;
+   margin-left: 30%;
+}
+
+.content h1{
+    font-size: 50px
+}
+
+.content p{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20%;
+}
+
+ .search{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 25%;
+ }
+
+.submit{
+    position: absolute;
+    margin-top: 15%;
+    margin-left:49%
+}
+.submit a{
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 25px;
+    background-color: orangered;
+}
+
